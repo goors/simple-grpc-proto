@@ -14,7 +14,6 @@ func main() {
 		log.Fatalf("failed to listen: %v", err)
 	}
 
-	// fill in some fake data into database
 	// create a server instance
 	s := api.Server{}
 	// create a gRPC server object
